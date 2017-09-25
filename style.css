@@ -2,27 +2,12 @@
     box-sizing: border-box;
 }
 .body{
-	padding:20px;
-	}
-.container{
-  border: 5px solid #00B16A;
-  text-align:center;
-  display: block;
-  width: 100%;
-  
+  padding:20px;
+  }
+
+.item{
+  width: 400px;
+  height: 300px;
+  list-style: none;
+  float: inherit;
 }
-.container-fluid {
-  margin-top:50px;
-  border: 5px solid #BE90D4;
-  text-align:center;
-}
-[class*="col-md-x"] {
-  min-height:100px;
-}
-.example-1 {
-  border: 5px solid #F7CA18;
-}
-.container img{
-	width: 400px;
-	height: 300px;
-	}
